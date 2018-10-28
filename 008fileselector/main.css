@@ -1,0 +1,29 @@
+div {
+     width: 100px;
+     height: 100px;
+     border: 1px solid red;
+    border-radius: 45px;
+    background-image: url("../img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+img {
+    border: 16px groove orangered;
+    border-radius: 45px;
+}
+.pic1 {
+    border: 16px double pink;
+}
+.pic2 {
+    border: 25px ridge olive;
+}
+.pic3 {
+    border: 25px solid orangered;
+}
+.pic4  {
+    border: 25px  dashed forestgreen;
+}
+.pic5 {
+    border: 25px dotted olive;
+}

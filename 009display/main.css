@@ -1,0 +1,42 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 45px;
+    display: inline-block;
+
+}
+img {
+    width: 100px;
+    height: 100px;
+    border: 16px groove orangered;
+    border-radius: 45px;
+    padding: 20px;
+    margin: 20px;
+}
+.pic1 {
+    width: 100px;
+    height: 100px;
+    border: 16px double pink;
+}
+.pic2 {
+    width: 100px;
+    height: 100px;
+    border: 25px ridge olive;
+}
+.pic3 {
+    width: 100px;
+    height: 100px;
+    border: 25px solid orangered;
+}
+.pic4  {
+    width: 100px;
+    height: 100px;
+    border: 25px  dashed forestgreen;
+}
+.pic5 {
+    width: 100px;
+    height: 100px;
+    border: 25px dotted olive;
+
+}

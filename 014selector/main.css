@@ -4,9 +4,11 @@ body{
     padding-top: 36px;
 }
 div p{
+    background: yellow;
     color: red;
 }
 div > p{
+    background: green;
     font-size: 30px;
 }
 div ~ p {
@@ -15,4 +17,5 @@ div ~ p {
 div + p {
     color: deeppink;
     font-size: 20px;
+    background: blue;
 }

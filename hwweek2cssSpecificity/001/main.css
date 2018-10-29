@@ -1,0 +1,86 @@
+/*this is the decleration for the selector div*/
+div {
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    border-radius: 45px;
+    text-align: center;
+
+}
+/*this is the decleration for the selecor p and h1*/
+p, h1
+{
+    width: 50px;
+    height: 40px;
+    border: double red;
+}
+/*this is the class for p*/
+p.s1 {
+    border: solid blue;
+}
+/*this is the id for div*/
+#img{
+    width: 200px;
+    height: 200px;
+    border: dashed yellow;
+    border-radius: 45px;
+    display: inline-block;
+    text-align: center;
+
+
+}
+/*this is the decleration for the selector body*/
+body{
+    padding-top: 36px;
+}
+/*this is chabge the color  p beneath the div*/
+div p{
+    background: yellow;
+    color: red;
+}
+/*this will change only the immiditly beaeath div to border radius*/
+div > p{
+    border-radius: 50px;
+
+}
+/*!*this will changethebackground to orang for the sibiling folowwing the div which is p's*!*/
+div ~ p {
+    background: orange;
+}
+/*this will change the first one (imiditaly sibiling after the div)*/
+div + p {
+    color: deeppink;
+    background: blue;
+}
+/*this whille change the box colir to red with pointer */
+div:hover {
+    cursor: pointer;
+    background: red;
+}
+/*this will cahnge the bckground color to ornage when is click on it with pointer */
+div:active{
+    cursor: pointer;
+    background: orange;
+}
+/*this sis the decleration for a selector*/
+a{
+    font-size: large;
+
+}
+/*this will light up the Goolge gren for the frist time here */
+a:link  {
+    color: green;
+}
+/*this will show is the link(google has been visited before*/
+a:visited   {
+    color: blue;
+}
+/*when you hover on Google this selector will change the coler of Google to red*/
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+/*this will change the coller of Google when clicked on it */
+a:active{
+    color: yellow;
+}

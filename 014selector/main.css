@@ -7,11 +7,12 @@ div p{
     color: red;
 }
 div > p{
-    color: yellow;
+    font-size: 30px;
 }
 div ~ p {
-    color: green;
+    background: orange;
 }
 div + p {
     color: deeppink;
+    font-size: 20px;
 }

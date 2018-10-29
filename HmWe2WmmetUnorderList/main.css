@@ -3,6 +3,10 @@ ul {
     border: 10px;
     font-size: medium;
 }
+#firstid
+{
+    color: deeppink;
+}
 .s1 {
     color: red;
     font-size: large;

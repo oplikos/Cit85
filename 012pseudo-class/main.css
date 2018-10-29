@@ -1,0 +1,36 @@
+a , ul , li
+{
+    font-size: 50px;
+}
+a.avtive    {
+    color: blue;
+}
+#fname {
+    font-size: 100px;
+}
+#lname {
+    font-size: 200px;
+}
+li:first-child
+{
+    color: red;
+}
+li:last-child
+{
+    color: blue;
+}
+li:nth-child(odd){
+    background: yellow;
+}
+ul:first-child
+{
+    color:green;
+}
+li:nth-child(33)
+{
+    color: #ff8897;
+}
+li:nth-child(3n+2){
+    color: yellow;
+    background: green;
+}

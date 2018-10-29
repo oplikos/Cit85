@@ -1,0 +1,57 @@
+[contenteditable]
+{
+    color: green;
+    border: 1px dashed red;
+}
+[target=_blank]{
+    color: red;
+}
+[target=_self]{
+    color: green;
+}
+body   {
+    color: darkgray;
+    font-size: 30px;
+    border: solid orange;
+    text-align: center;
+    background: aliceblue;
+
+}
+div{
+    width: 100px;
+    height: 100px;
+    background: green;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+
+}
+[src]{
+    border: 10px    dashed blue;
+}
+
+[href]{
+    border: 10px double violet;
+}
+[alt]{
+    color: orangered;
+    border: 10px dotted aqua;
+}
+a:link  {
+    color: green;
+}
+a:visited   {
+    color: blue;
+
+}
+a:hover {
+    color: red;
+}
+a:active{
+    color: yellow;
+}
+div:hover{
+    background: blue;
+    cursor: pointer;
+    color: fuchsia;
+}

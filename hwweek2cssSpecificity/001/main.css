@@ -25,8 +25,7 @@ p.s1 {
 }
 /*this is the id for div*/
 #img{
-    /*width: 200px;*/
-    /*height: 200px;*/
+    
     border: dashed yellow;
     border-radius: 45px;
     display: block;

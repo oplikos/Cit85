@@ -1,11 +1,16 @@
 /*this is the decleration for the selector div*/
 div {
-    width: 150px;
-    height: 150px;
+
     border: 2px solid red;
     border-radius: 45px;
     text-align: center;
 
+}
+/*this will clas the div to behave as a box with radius */
+div.s2
+{
+    width: 150px;
+    height: 150px;
 }
 /*this is the decleration for the selecor p and h1*/
 p, h1
@@ -20,12 +25,13 @@ p.s1 {
 }
 /*this is the id for div*/
 #img{
-    width: 200px;
-    height: 200px;
+    /*width: 200px;*/
+    /*height: 200px;*/
     border: dashed yellow;
     border-radius: 45px;
-    display: inline-block;
+    display: block;
     text-align: center;
+    margin: 0 auto;
 
 
 }

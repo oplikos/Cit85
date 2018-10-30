@@ -1,0 +1,15 @@
+div{
+    width: 80px;
+    height: 70px;
+    border-radius: 39px;
+    border: solid #dafa37;
+    background-color: greenyellow;
+    margin: 0 auto;
+    display: inline-block;
+    rotation: 90deg;
+}
+/*Ripening of the lemon :D*/
+div:hover  {
+    background-color: yellow;
+    cursor: pointer;
+}

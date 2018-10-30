@@ -1,15 +1,23 @@
+ p {
+    border: solid red;
+    margin:20px ;
+}
 div{
     width: 80px;
-    height: 70px;
-    border-radius: 39px;
-    border: solid #dafa37;
-    background-color: greenyellow;
-    margin: 0 auto;
-    display: inline-block;
-    rotation: 90deg;
+    height: 80px;
+    border: solid blue;
+    background-color: darkblue;
+    margin: 20px ;
+    display: inline;
+    border-radius: 40px;
 }
-/*Ripening of the lemon :D*/
-div:hover  {
-    background-color: yellow;
-    cursor: pointer;
+span{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: solid plum;
+    background-color: darkorchid;
+    margin: 20px ;
+    display: block;
+
 }

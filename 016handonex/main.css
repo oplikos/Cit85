@@ -1,0 +1,9 @@
+#emph{
+    color: red;
+}
+.emphesized{
+    color:  greenyellow;
+}
+[target]{
+    border:1px solid red;
+}

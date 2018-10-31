@@ -8,7 +8,7 @@ div{
     border: solid blue;
     background-color: darkblue;
     margin: 20px ;
-    display: inline;
+    display: inline ;
     border-radius: 40px;
 }
 span{

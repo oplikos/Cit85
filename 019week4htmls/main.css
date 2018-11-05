@@ -1,0 +1,14 @@
+
+p{
+
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+a {
+
+    font-size: 2rem;
+    text-decoration: none blue;
+}
+a:hover {
+    text-decoration: underline red;
+}

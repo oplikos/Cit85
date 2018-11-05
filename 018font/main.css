@@ -1,0 +1,66 @@
+/*ive use insted of html body h1 h2 */
+/*using google font thought the body and indenting the text 1 rem */
+body {
+    text-indent: 1rem;
+    background-color: #31ff97;
+    font-family: 'Roboto', sans-serif;
+}
+/*div{*/
+    /*width: 15%;*/
+    /*height: 3rem;*/
+    /*text-align: center;*/
+    /*border: 3px #ff000d;*/
+/*}*/
+/* shadow the font and doing serif */
+h1
+{
+    text-shadow: 2px 0 5px red;
+        font-family: serif;
+        font-size: 2rem;
+        line-height: 3;
+
+    }
+/*sans sarif font  and bold*/
+h2
+{
+        font-family: sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+/*using font weight 400 */
+h3
+{
+    font-weight: 400;
+    font-size: 1rem;
+    font-style:    oblique;
+
+    }
+/*line through font weight 900 */
+h4
+{
+    font-weight: 900;
+    font-size: 1rem;
+    font-variant: all-small-caps;
+    word-spacing: 5px;
+    text-decoration: line-through;
+}
+/*trasforming all the sentance to uppercase and italic and transparating it */
+h5
+{
+    font-size: 1rem;
+
+    color: rgba(255,0,0,0.35);
+    text-transform: uppercase;
+    letter-spacing: 5px   ;
+    font-style: italic;
+}
+
+/*for the link first removing the line under the link and the underline when hover */
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+
+}

@@ -1,0 +1,16 @@
+
+html {
+    font-size: 2rem;
+}
+h1 {
+    display: inline;
+
+}
+ul {
+    list-style: none;
+}
+li {
+    /*border: 2px solid blue;*/
+    border-radius: 50px;
+    display: inline-block;
+}

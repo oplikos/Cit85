@@ -1,0 +1,30 @@
+html{
+    border-bottom: 1px dotted blueviolet;
+}
+body {
+    border: 1px dotted blue;
+    margin: 300px auto;
+
+}
+div {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 15%;
+    margin: 10px auto;
+
+}
+.me1 {
+    background-color: red;
+}
+.me2 {
+    background-color: blue;
+
+}
+.me3 {
+    background-color: yellow;
+
+}
+.me4    {
+    background-color: green;
+}

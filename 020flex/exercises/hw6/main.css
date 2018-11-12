@@ -1,0 +1,39 @@
+body {
+
+    height: 30rem;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div{
+    width: 50%;
+}
+p
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 35px;
+}
+
+.flex1
+{
+    flex: 0 0 100%;
+    border: 2px solid red;
+
+    background-color: #203476;
+}
+
+.flex2
+{
+    flex: 0 0 50%;
+    background-color: #365bd0;
+
+}
+.flex3
+{
+    flex: 0 0 50%;
+     background-color: #b7cff6;
+
+ }

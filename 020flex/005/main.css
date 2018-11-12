@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 600px;
+    border: 1px solid red;
+}
+
+div {
+
+    border: 2px solid black;
+    height: 100px;
+
+}
+
+.flex1 {
+    background-color: red;
+    width: 100%;
+    flex-grow: 1;
+
+}
+
+.flex2 {
+     background-color: #4bf2ff;
+     flex-grow: 1;
+     width: 66%;
+ }
+.flex3 {
+    background-color: #31ff97;
+    width: 33%;
+    flex-grow: 1;
+}
+.flex4 {
+
+    background-color: #4bf2ff;
+    flex-grow: 1;
+    width: 50%;
+}
+.flex5 {
+
+    background-color: #31ff97;
+    width: 50%;
+    flex-grow: 1;
+}

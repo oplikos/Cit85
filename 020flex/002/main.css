@@ -1,0 +1,19 @@
+div.Grow1 {
+     /*width: 100px;*/
+     height: 100px;
+     background-color: yellow;
+     border: 2px solid red;
+     flex-grow: 1;
+ }
+div.Grow2 {
+    /*width: 100px;*/
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid red;
+    flex-grow: 2;
+}
+body  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

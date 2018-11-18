@@ -1,0 +1,34 @@
+body, html, header, article, aside, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header, article, aside, footer {
+    color: #203476;
+    text-align: center;
+    width: 100%;
+}
+
+/*i like to have ad on top of the text and a other ad on the vottom of it */
+aside:nth-child(3) {
+    order: 1;
+}
+
+article {
+    order: 2;
+}
+
+aside:nth-child(4) {
+    order: 3;
+}
+
+footer {
+    order: 4;
+}

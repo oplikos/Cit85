@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+    background: deepskyblue;
+}
+a {
+    text-decoration: none;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+a:hover {
+    background: royalblue;
+}

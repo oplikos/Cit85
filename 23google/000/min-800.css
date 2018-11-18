@@ -1,0 +1,15 @@
+body {
+    width: 800px;
+}
+
+.flex1 {
+    width: 60%;
+}
+
+.flex2 {
+    width: 40%;
+}
+
+.flex3, flexc4, .flex5 {
+    width: 33.33%;
+}

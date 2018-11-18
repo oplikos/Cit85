@@ -1,0 +1,11 @@
+ul {
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    /*box-sizing: border-box;*/
+
+}
+
+a {
+    /*display: inline-block;*/
+    padding: 1rem;
+}

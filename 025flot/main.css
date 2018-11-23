@@ -1,0 +1,15 @@
+div, img {
+    border: 5px double black;
+    margin: 30px;
+    overflow: auto;
+
+}
+
+#right-img {
+    float: right;
+
+}
+
+#left-img {
+    float: left;
+}

@@ -1,0 +1,47 @@
+
+body , div {
+
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0px;
+}
+/*div {*/
+    /**/
+
+/*}*/
+.flex1 {
+    background-color: #f9da24;
+    border: 10px solid blue;
+    height: 10rem;
+    width: 100%;
+}
+
+.flex2 {
+    background-color: #8acffe;
+    height: 20rem;
+    border: 10px solid green;
+    float: left;
+    width: 24%;
+    /*border-right: 10px #f9da24;*/
+
+}
+.flex3 {
+    background-color: #2acb59;
+    height: 20rem;
+    border: 10px solid green;
+    float: right;
+    width: 73.8%;
+    /*border-left: #b7cff6;*/
+}
+.flex4 {
+    background-color: #65028b;
+    width: 100%;
+    border: 10px solid red;
+    height: 10rem;
+    clear: both;
+
+}
+

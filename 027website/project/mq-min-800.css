@@ -1,0 +1,41 @@
+#idx-atf {
+    background-image: url("fcc.jpg");
+
+}
+#idx-atf>div {
+    height: 60vh;
+}
+h1{
+color: whitesmoke;
+    font-size: 3rem;
+
+}
+h2{
+    font-size: 2rem;
+
+}
+h3{
+    font-size: 2rem;
+
+}
+h4{
+    font-size:2rem ;
+
+}
+h5{
+    font-size:1.5rem ;
+
+}
+h6{
+    font-size: 1.5rem;
+
+}
+button{
+    font-size:2rem ;
+
+}
+header ,   footer   {
+    font-size: 1.5rem ;
+    color: red;
+
+}

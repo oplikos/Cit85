@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    position: relative;
+}
+html {
+    font-size: 4vw;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%
+}
+
+body {
+    color: red;
+    display: flex;
+}
+
+.icon {
+    width: 1em; height: 1em;
+    fill: currentColor;
+}
+
+.circle {
+    font-size: 8rem;
+}
+
+body {
+    animation-name: bouncing ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bouncing {
+    0%{
+        left: 0%;
+        top: 50%
+    }
+    50%{
+        top:0%;
+    }
+
+    100%{
+        left: 100%;
+        top:100%;
+
+    }
+}

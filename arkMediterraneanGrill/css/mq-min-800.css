@@ -1,0 +1,50 @@
+#idx-atf {
+    background-image: url("fcc.jpg");
+
+}
+#idx-atf>div {
+    height: 60vh;
+}
+header nav {
+    width: 300px;
+    height: 80%;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1{
+color: #2acb59;
+    font-size: 1rem;
+
+}
+h2{
+    font-size: 2rem;
+
+}
+h3{
+    font-size: 2rem;
+
+}
+h4{
+    font-size:2rem ;
+
+}
+h5{
+    font-size:1.5rem ;
+
+}
+h6{
+    font-size: 1.5rem;
+
+}
+button{
+    font-size:2rem ;
+
+}
+header ,   footer   {
+    font-size: 1.5rem ;
+    color: red;
+
+}
